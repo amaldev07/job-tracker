@@ -1,27 +1,25 @@
 .app-header {
-  background: linear-gradient(90deg, #8e24aa 0%, #ff6e40 100%);
-  color: #fff;
-  padding: 24px 0 16px 32px;
-  text-align: left;
-  box-shadow: 0 2px 8px rgba(142, 36, 170, 0.15);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    background: linear-gradient(90deg, #8e24aa 0%, #ff6e40 100%);
+    color: #fff;
+    padding: 24px 0 16px 32px;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(142, 36, 170, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .app-header h1 {
-  margin: 0;
-  font-size: 1.7rem;
-  letter-spacing: 2px;
-  font-weight: 700;
+    margin: 0;
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+    font-weight: 700;
 }
- 
-.add-company-btn-header{
+
+.add-company-btn-header {
     margin-right: 5px;
 }
 
 .example-spacer {
-  flex: 1 1 auto;
+    flex: 1 1 auto;
 }
-
- 
