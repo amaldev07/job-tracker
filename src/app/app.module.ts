@@ -6,16 +6,20 @@ import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { HomeComponent } from './home/home.component';
 import { MatTableModule } from '@angular/material/table';
+import { AddCompanyComponent } from './add-company/add-company.component';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    AddCompanyComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatTableModule
+    MatTableModule,
+    MatDialogModule
   ],
   providers: [
     provideAnimationsAsync()
