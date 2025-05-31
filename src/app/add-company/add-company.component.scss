@@ -1,0 +1,20 @@
+.form-field {
+    margin-bottom: 16px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+/* Specifically increase the width for job link field */
+.job-link-field {
+    min-width: 650px !important;
+    max-width: 100%;
+}
+
+@media (max-width: 500px) {
+    .job-link-field {
+        min-width: 0;
+        width: 100%;
+    }
+}

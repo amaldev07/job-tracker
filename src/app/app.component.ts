@@ -13,6 +13,8 @@ export class AppComponent {
   constructor(private dialog: MatDialog) {}
 
   openAddCompanyDialog() {
-    this.dialog.open(AddCompanyComponent);
+    this.dialog.open(AddCompanyComponent,{
+       width: '1200px'
+    });
   }
 }
