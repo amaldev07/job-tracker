@@ -1,0 +1,6 @@
+/* Only applies to header cells, not data cells */
+.custom-table .mat-mdc-header-cell {
+    background-color: #3f51b5;
+    /* Or your preferred color */
+    color: white;
+}
