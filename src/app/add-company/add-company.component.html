@@ -1,4 +1,10 @@
-<h2 mat-dialog-title>Add Company</h2>
+<div mat-dialog-title class="dialog-title">
+  <div>Add Company</div>
+  <div><button mat-icon-button class="close-btn" mat-dialog-close aria-label="Close">
+      <mat-icon>close</mat-icon>
+    </button>
+  </div>
+</div>
 <mat-dialog-content class="mat-typography">
   <form [formGroup]="addCompanyForm" (ngSubmit)="onSubmit()">
     <div class="form-field">

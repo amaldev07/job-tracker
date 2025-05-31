@@ -7,7 +7,7 @@
 }
 
 /* Specifically increase the width for job link field */
-.job-link-field {
+/* .job-link-field {
     min-width: 650px !important;
     max-width: 100%;
 }
@@ -17,4 +17,20 @@
         min-width: 0;
         width: 100%;
     }
+} */
+
+.dialog-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.close-btn {
+   margin: 5px;
+  color: #888;
+}
+
+.close-btn:hover {
+  color: #d32f2f;
+  background: rgba(211,47,47,0.08);
 }
