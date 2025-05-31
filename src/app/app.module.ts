@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { MatTableModule } from '@angular/material/table';
 import { AddCompanyComponent } from './add-company/add-company.component';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { MatDialogModule } from '@angular/material/dialog';
     BrowserModule,
     AppRoutingModule,
     MatTableModule,
-    MatDialogModule
+    MatDialogModule,
+    MatButtonModule,
+    MatIconModule
   ],
   providers: [
     provideAnimationsAsync()
